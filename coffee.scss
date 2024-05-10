@@ -7,6 +7,7 @@ body {
   margin: auto;
   max-width: 1050px;
   text-align: justify;
+
   .container_head {
     text-align: justify;
     .head_text__normal {
@@ -72,10 +73,7 @@ footer {
       font-size: 1.3rem;
       margin-left: 1vw;
       margin-right: 1vw;
-      .footer_current {
-        color: white;
-        text-decoration: none;
-      }
+     
     }
   }
   .footer_links {
