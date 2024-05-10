@@ -1,0 +1,130 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container_main {
+  margin: auto;
+  max-width: 1050px;
+  text-align: justify;
+
+  .container_head {
+    text-align: justify;
+    .head_text__normal {
+      font-size: 1.1rem;
+      a {
+        color: rgb(0, 130, 250);
+      }
+    }
+  }
+  .container_coffee {
+    display: flex;
+    flex-direction: column;
+    .coffee_row1 {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      margin-bottom: 3vh;
+    }
+
+    .coffee_row2 {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+    .coffee_presentation {
+      background-color: lightgray;
+      max-width: 480px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      h2 {
+        padding-left: 0.8vw;
+        text-transform: uppercase;
+      }
+      img {
+        border-top: 2px solid rgb(150, 150, 150);
+      }
+      .coffee_description__italic {
+        font-style: italic;
+      }
+      p {
+        padding-left: 0.8vw;
+        padding-right: 0.8vw;
+      }
+    }
+  }
+}
+
+footer {
+  background-color: #343a40;
+
+  nav {
+    display: flex;
+    justify-content: center;
+  }
+
+  .footer_menu {
+    display: flex;
+    padding: 5vh 30vw;
+
+    .menu_items {
+      list-style: none;
+      font-size: 1.3rem;
+      margin-left: 1vw;
+      margin-right: 1vw;
+     
+    }
+  }
+  .footer_links {
+    text-align: center;
+    padding-bottom: 5vh;
+    color: white;
+    font-size: 1.1rem;
+    h3 {
+      font-weight: bold;
+      font-size: 1.5rem;
+    }
+  }
+
+  a {
+    color: rgb(0, 130, 250);
+    &:hover {
+      font-size: 1.5rem;
+    }
+  }
+}
+
+header {
+  background-color: rgb(201, 195, 195);
+}
+
+.header {
+  background-color: rgb(201, 195, 195);
+  margin: auto;
+  max-width: 1050px;
+  height: 15vh;
+  display: flex;
+  align-items: center;
+}
+
+.header_img {
+  width: 90px;
+  height: 90px;
+}
+
+.header_bars {
+  display: flex;
+  justify-content: flex-end;
+  width: 80vw;
+
+  padding-right: 100px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 25px;
+  font-size: 1.25rem;
+  padding-right: 10px;
+}
