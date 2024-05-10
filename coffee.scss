@@ -14,7 +14,6 @@ body {
       a {
         color: rgb(0, 130, 250);
       }
-
     }
   }
   .container_coffee {
@@ -59,16 +58,22 @@ body {
 footer {
   background-color: #343a40;
 
+  nav {
+    display: flex;
+    justify-content: center;
+  }
+
   .footer_menu {
     display: flex;
-    justify-content: space-evenly;
     padding: 5vh 30vw;
 
     .menu_items {
       list-style: none;
       font-size: 1.3rem;
+      margin-left: 1vw;
+      margin-right: 1vw;
       .footer_current {
-        color:white;
+        color: white;
         text-decoration: none;
       }
     }
@@ -87,10 +92,41 @@ footer {
   a {
     color: rgb(0, 130, 250);
     &:hover {
-        font-size: 1.5rem;
+      font-size: 1.5rem;
     }
   }
-
-
 }
 
+header {
+  background-color: rgb(201, 195, 195);
+}
+
+.header {
+  background-color: rgb(201, 195, 195);
+  margin: auto;
+  max-width: 1050px;
+  height: 15vh;
+  display: flex;
+  align-items: center;
+}
+
+.header_img {
+  width: 90px;
+  height: 90px;
+}
+
+.header_bars {
+  display: flex;
+  justify-content: flex-end;
+  width: 80vw;
+
+  padding-right: 100px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 25px;
+  font-size: 1.25rem;
+  padding-right: 10px;
+}
