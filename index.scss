@@ -1,0 +1,119 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+   }
+
+.header {
+    background-color: rgb(201, 195, 195);
+    width: 100vw;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+}
+
+.header_img {
+    width: 90px;
+    height: 90px;
+    padding-left: 300px; 
+}
+
+.header_bars{
+    display: flex;
+    justify-content: flex-end;    
+    width: 80vw;    
+    padding-right: 100px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 25px;
+    font-size: 1.25rem;
+    padding-right: 10px;
+}
+
+.container{
+    width: 100vw;
+    height: 80vh;   
+    justify-content: center;    
+    display: flex;   
+}
+
+.container_inside {
+    width: 60vw;
+    height: 80vh;    
+    justify-content: center;    
+}
+
+.container_part2 {
+    width: 60vw;
+    height: 63.5vh;
+}
+
+.map {
+    width: 60vw;
+    height: 63.5vh;
+}
+
+.info {
+    width: 60vw;
+    height: 15vh;
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 10px;  
+}
+
+.hours {
+    margin-right: 110px;
+}
+
+.book {
+    margin-right: 110px;
+}
+
+footer {
+    background-color: #343a40;
+  
+    nav {
+      display: flex;
+      justify-content: center;
+    }
+  
+    .footer_menu {
+      display: flex;
+      padding: 5vh 30vw;
+  
+      .menu_items {
+        list-style: none;
+        font-size: 1.3rem;
+        margin-left: 1vw;
+        margin-right: 1vw;       
+      }
+    }
+    .footer_links {
+      text-align: center;
+      padding-bottom: 5vh;
+      color: white;
+      font-size: 1.1rem;
+      h3 {
+        font-weight: bold;
+        font-size: 1.5rem;
+      }
+    }
+  
+    a {
+      color: rgb(0, 130, 250);
+      &:hover {
+        font-size: 1.5rem;
+      }
+    }
+  }
+  
+  
+  
+  
+  
+  
+  
+  
